@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
 Route::get('/', 'indexController@index');
 Route::get('listings', 'listingsController@index');
 Route::get('elements', 'elementsController@index');
@@ -23,3 +22,6 @@ Route::get('contact', 'contactController@index');
 Route::get('testimonials', 'testimonialController@index');
 Route::get('about', 'aboutController@index');
 Route::get('faq', 'faqController@index');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

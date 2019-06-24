@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSavaCosTable extends Migration
+class CreatePostsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,13 @@ class CreateSavaCosTable extends Migration
      */
     public function up()
     {
-        Schema::create('sava-cos', function (Blueprint $table) {
+        Schema::create('posts', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name')->nullable();
-            $table->string('reviews');
-            $table->string('like');
-            $table->text('post');
-            $table->text('comment');
+            $table->string('title');
+            $table->text('body');
+            $table->string('slug')->unique();
+            $table->string('comment');
+            $table->unsignedInteger('likes')->default(0);
             $table->timestamps();
         });
     }
@@ -31,6 +31,6 @@ class CreateSavaCosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sava-cos');
+        Schema::dropIfExists('posts');
     }
 }

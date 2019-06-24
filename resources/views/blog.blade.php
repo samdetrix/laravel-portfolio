@@ -24,23 +24,23 @@
                     <div class="single-blog-area mb-50">
                         <!-- Post Thumbnail -->
                         <div class="blog-post-thumbnail">
+                        <h2>SAVA CONSTRUCTION HEADLINES</h2>
                             <img src="img/blog-img/blog1.jpg" alt="">
                         </div>
                         <!-- Post Content -->
                         <div class="post-content">
-                            <!-- Date -->
-                            <div class="post-date">
-                                <a href="#">March 09, 2018</a>
-                            </div>
-                            <!-- Headline -->
-                            <a href="#" class="headline">How to get the best deal for your house</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <p>By <a href="#">Admin</a> | in <a href="#">Uncategorized</a> | <a href="#">2 Comments</a></p>
-                            </div>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odiomattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Curabitur rhoncus auctor eleifend.</p>
-                            <!-- Read More btn -->
-                            <a href="#" class="btn south-btn">Read More</a>
+                    
+                            
+                            <div class="jumbotron">
+  <h1 class="display-3">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <a class="btn btn-success btn-lg" href="/comment" role="button">Post Content</a>
+  </p>
+</div>
                         </div>
                     </div>
                    
