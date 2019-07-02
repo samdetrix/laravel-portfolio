@@ -16,12 +16,16 @@
 Route::get('/', 'indexController@index');
 Route::get('listings', 'listingsController@index');
 Route::get('elements', 'elementsController@index');
-Route::get('blog', 'blogController@index');
+//Route::get('blog', 'blogController@index');
+Route::resource('blog', 'blogController');
 Route::get('projects', 'projectsController@index');
 Route::get('contact', 'contactController@index');
 Route::get('testimonials', 'testimonialController@index');
 Route::get('about', 'aboutController@index');
 Route::get('faq', 'faqController@index');
+Route::get('Post', 'PostController@index');
+Route::resource('comment', 'commentController');
+//Route::post('comment', 'commentController@store');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

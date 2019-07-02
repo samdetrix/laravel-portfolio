@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use illuminate\http\controller\blogController;
 use App\Post;
 
-class blogController extends Controller
+class commentController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,14 +14,8 @@ class blogController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    
-        {
-            $Posts = Post::all();
-            
-            
-            return view('blog', [
-                    'Posts'=> $Posts,
-            ]);
+    {
+        return view('comment');
     }
 
     /**
@@ -30,7 +25,7 @@ class blogController extends Controller
      */
     public function create()
     {
-        //wambugu@2019` 
+        //
     }
 
     /**
@@ -56,7 +51,7 @@ class blogController extends Controller
      */
     public function show($id)
     {
-        
+        //
     }
 
     /**

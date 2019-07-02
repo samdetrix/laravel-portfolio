@@ -3,25 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Post;
 
-class blogController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    
-        {
-            $Posts = Post::all();
-            
-            
-            return view('blog', [
-                    'Posts'=> $Posts,
-            ]);
+    public function index(){
+//
     }
+   
+    
 
     /**
      * Show the form for creating a new resource.
@@ -30,7 +24,7 @@ class blogController extends Controller
      */
     public function create()
     {
-        //wambugu@2019` 
+        //
     }
 
     /**
@@ -41,11 +35,7 @@ class blogController extends Controller
      */
     public function store(Request $request)
     {
-        $Post =new Post();
-        $Post ->post = request('post');
-        $Post ->title = request('title');
-        $Post->save();
-        return back();
+        //
     }
 
     /**
@@ -56,7 +46,7 @@ class blogController extends Controller
      */
     public function show($id)
     {
-        
+        //
     }
 
     /**

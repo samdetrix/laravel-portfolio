@@ -73,7 +73,7 @@
                                 <li><a href="/">Home</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown">
-                                        <li><a href="/">Home</a></li>
+                                        
                                         <li><a href="/about">About Us</a></li>
                                         
                                             <ul class="dropdown">
@@ -84,15 +84,14 @@
                                         <li><a href="#">Portfolio</a>
                                             <ul class="dropdown">
                                                 
-                                                <li><a href="/blog">Company Portfolio</a></li>
+                                                <li><a href="/blog">Portfolio</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="/contact">Contact</a></li>
-                                        <li><a href="/elements">Elements</a></li>
+                                        
                                     </ul>
                                 </li>
-                                <li><a href="/about">About Us</a></li>
-                                <li><a href="/listings">Properties</a></li>
+                                <li><a href="/about">About Us</a></li>                                
                                 <li><a href="/blog">Blog</a></li>
                                 <li><a href="/projects">Ongoing Projects</a>
                                     <div class="megamenu">
